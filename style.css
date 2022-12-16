@@ -1,0 +1,151 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.navigation {
+  position: sticky;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navlist {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 2%;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+#paragraphs {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  gap: 2%;
+  padding: 3%;
+  font-size: large;
+}
+
+#card-display {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card1 {
+  background-color: #00ccb1;
+  border-radius: 10px;
+}
+
+.options {
+  background: transparent;
+  text-decoration: underline;
+  border: none;
+}
+.card2 {
+  background-color: #3d83df;
+  border-radius: 10px;
+}
+
+.card3 {
+  background-color: #1b2734;
+  border-radius: 10px;
+}
+
+.sites {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+}
+
+.platforms {
+  background-color: #d5f5f6;
+}
+
+.words {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.boxes {
+  display: flex;
+  justify-content: flex-end;
+  background: white;
+  border-radius: 5px;
+}
+.boxes-one {
+  padding: 20px;
+  width: 250px;
+  resize: both;
+  overflow: auto;
+}
+.boxes-two {
+  padding: 20px;
+  width: 250px;
+  resize: both;
+  overflow: auto;
+}
+
+.boxes-three {
+  padding: 20px;
+  width: 250px;
+  resize: both;
+  overflow: auto;
+}
+.boxes-four {
+  padding: 20px;
+  width: 250px;
+  resize: both;
+  overflow: auto;
+}
+.last-head {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
+#last-paragraph {
+  display: flex;
+  justify-content: center;
+}
+.countries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.join {
+  display: flex;
+  justify-content: center;
+}
+.last-button {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+.footer2 {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+.footer3 {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
