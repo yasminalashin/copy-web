@@ -3,15 +3,28 @@ body {
 }
 .navigation {
   position: sticky;
+  /* Don't forget the coordinates yaaa yasminaaaa */
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.7);
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 3%;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navlist {
   list-style: none;
   display: flex;
-  justify-content: end;
-  gap: 2%;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  float: right;
+  margin: 0px;
+  padding: 0px;
 }
 
 .section1 {
@@ -39,6 +52,7 @@ body {
   margin-right: 15%;
   display: flex;
   justify-content: space-evenly;
+  gap: 3%;
 }
 
 .card1 {
@@ -71,18 +85,24 @@ body {
 
 .platforms {
   background-color: #d5f5f6;
+  position: relative;
 }
 
 .words {
   margin-left: 10%;
   margin-right: 10%;
 }
-
+.boxes-container {
+  display: flex;
+  justify-content: end;
+}
 .boxes {
   display: flex;
   justify-content: flex-end;
-  background: white;
   border-radius: 5px;
+  position: absolute;
+  top: 0px;
+  background-color: #d5f5f6;
 }
 .boxes-one {
   padding: 20px;
@@ -96,7 +116,16 @@ body {
   resize: both;
   overflow: auto;
 }
-
+.boxes-group-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+.boxes-group-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
 .boxes-three {
   padding: 20px;
   width: 250px;
@@ -125,6 +154,21 @@ body {
   flex-flow: wrap;
   margin-left: 10%;
   margin-right: 10%;
+}
+/* Yasmina, hope you're doing good, Keep up the good work I AM WATCHINGB YOU !! 
+SO, don't forget to inspect to see if there is a padding/margin by default 
+so that you can override it */
+
+.c-p {
+  padding: 0px;
+  margin: 0px;
+}
+.c-b {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
 }
 .join {
   display: flex;
